@@ -19,15 +19,33 @@
         position: sticky;
         z-index: auto;
         top: 0;
+        
+      }  @media (max-width:1536px){
+               #nav{
+                display: block;
+               }
+      }
+      @media (max-width:1537px){
+        
+               #aaaa{
+                display: block;
+               }
+               #hf{
+                display: block;
+               }
+      }
+      html{
+        scroll-behavior: smooth;
       }
        #nav{
         background-color: black;
         padding-top: 1px;
         width: 1504px;
         height: 100px;
+        
       }#nav ul{
         
-        margin-left: 854px;
+        margin-left: 276px;
         
       }#nav li{
         float: left;
@@ -37,10 +55,10 @@
         text-decoration: none;
         color: white;
         font-weight: bold;
-        margin-right: 105px;
+        margin-right: 116px;
         font-family: 'Noto sans',sans-serif;
       }  #nav li  :hover{
-        color: blue;
+        color: gray;
       } #nav li a i{
         color: white;
         font-size: 28px;
@@ -81,7 +99,7 @@
         font-family: 'Source Sans Pro', sans-serif;
       font-size: 51px;
       color: goldenrod;
-      }
+      } 
        #raja{
         margin-top: 15px;
         width: 536px;
@@ -367,22 +385,31 @@ margin-bottom: 13px;
       } #rty i{
         color: white;
         font-size: 39px;
+      } p{
+        color: black;
+      }  #pedal{
+        margin-left: -54px;
       }
         </style>
 </head>
 <body> <nav id="ww">
     <div id="nav">
   <ul>
-    <li><a href="">Home</a></li>
-    <li><a href="">Skills</a></li>
-    <li><a href="">Experience</a></li>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About Myself</a></li>
+    <li><a href="#skills">What I do</a></li>
+    <li><a href="#education">My Education</a></li>
+    <li><a href="#technical">Technical Skills</a></li>
     <li ><a href=""><i class="fa-solid fa-align-justify"></i></a></li>
   </ul>
     </div></nav>
-
+<section id="home"><div id="pedal">
+  <div id="">
+   <p>.......</p> <p>......</p> </div>
     <div id="parvam"><img src="photo.jpeg" alt=""></div>
     <div id="ez">
   <ul>
+
     <li id="ezra"><a href="">Hi there! I'm</a></li>
   <li id="bellary"><a href="">ANKUR DAS</a></li>
   <li id="raja"><a href="">I'm an engineering student of National Institute of Technology,Agartala, currently pursuing Computer Science and Engineering.I am currently learning 
@@ -395,7 +422,10 @@ margin-bottom: 13px;
       <ul>
         <li id="one"><a href="https://www.linkedin.com/in/ankur-das-a32888228/">MORE ABOUT ME</a></li>
       <li id="two"><a href="">DOWNLOAD C.V</a></li></ul>
-    </div> 
+    </div>  </div></section>
+    <section id="about">
+      <div id="pedal">
+         
     <div id="hf">About Myself</div> 
     <div id="aaaa"><ul>
       <li id="a1"><a href="">Name:-Ankur Das</a></li>
@@ -410,13 +440,17 @@ margin-bottom: 13px;
       <li><a href="https://www.linkedin.com/in/ankur-das-a32888228/"><i class="fa-brands fa-linkedin"></i></a></li>
       <li><a href="https://github.com/Dasankur980?tab=repositories"><i class="fa-brands fa-github"></i></a></li>
       <li><a href="https://www.instagram.com/mystic_das980/"><i class="fa-brands fa-instagram"></i></a></i></li>
-    </ul></div>
+    </ul></div> </div></section>
+    <section id="skills">
+      <div id="">
+          </div>
     <div id="madhura">What I do</div> 
     <div id="be">
      <div id="raj1"><ul><li id="mic11"><img src="2546584.png" alt=""></li><li id="mic12"><a href="">UI Design</a></li></ul></div>
      <div id="raj2"><ul><li id="mic1"><a href=""><i class="fa-solid fa-chevron-left"></i><i class="fa-solid fa-slash-forward"></i><i class="fa-solid fa-chevron-right"></i>
     </a></li><li id="mic2"><a href="">Web Development</a></li></ul></div>
-  </div>
+  </div> </section>
+  <section id="education"><div id="pedal">
     <div  class="all1"><a href="">My Education</a></div>
     <div id="al"><div id="all" class="all2"><ul>
       <li><a href="">Class X (TBSE),<i>U.E.M.H.S.S</i></a></li>
@@ -429,7 +463,8 @@ margin-bottom: 13px;
   <div id="all" class="all4"><ul>
     <li><a href="">B.Tech- Computer Science and Engineering,<i>NIT Agartala</i></a></li>
     <li id="ol2"><a href="">2021-Present, 9.16 CGPA</a></li>
-  </ul></div></div>  
+  </ul></div></div> </div> </section>
+  <section id="technical"> <div id="pedal">
   <div  class="all234"><a href="">Technical Skills</a></div>
  <div id="alll0"> <div id="alll1" class=""><ul><li><a href="">C++</a></li><li id="qq"><a href="">42%</a></li></ul></div>
   <div id="alll2" class=""><div id="alll22"></div></div>
@@ -438,6 +473,6 @@ margin-bottom: 13px;
   <div id="alll1" class=""><ul><li><a href="">CSS</a></li><li id="dd"><a href="">60%</a></li></ul></div>
   <div id="alll6" class=""><div id="alll66"></div></div>
   <div id="alll1" class=""><ul><li><a href="">Javascript</a></li><li id="cc"><a href="">20%</a></li></ul></div>
-  <div id="alll8" class=""><div id="alll88"></div></div></div>
+  <div id="alll8" class=""><div id="alll88"></div></div></section></div></div>
 </body>
 </html>
